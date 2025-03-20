@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+    font-family: 'Press Start 2P';
+    background-color: #A6D9F7; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: #C7E4FF;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 4px solid #5B9BD5;
+    padding: 20px;
+}
+
+/* Title */
+.chat-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
+}
+
+.chirpy-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 3px 3px 0px #333;
+}
+
+/* Chick and Chatbox Section */
+.chat-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px; /* Ensures spacing between the chick and chatbox */
+}
+
+/* Left Side - Chirpy Image */
+.left-side {
+    flex: 1;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.chirpy-img {
+    width: 120px;
+    height: auto;
+}
+
+.right-side {
+    flex: 2; /* Allows Chatbox to take more space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#chatbox {
+    flex-grow: 1;
+    background: #d0eaff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    border: 2px solid #5B9BD5;
+    box-sizing: border-box;
+}
+
+/* Input Container (Now Below Everything) */
+.input-container {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #5B9BD5;
+}
+
+/* Input Field */
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Send Button */
+button {
+    padding: 10px;
+    background-color: #FFD700;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
