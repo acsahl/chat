@@ -29,5 +29,10 @@
     ],
     "of course!": [
         "No problem!"
+    ],
+    "good, how was your day": [
+        "Depends on my mood I guess",
+        "Excellently, thank you!",
+        "I'm a chatbot, so I don't have a day"
     ]
 }

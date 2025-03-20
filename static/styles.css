@@ -29,12 +29,7 @@ body {
     text-align: center;
 }
 
-.chirpy-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #FFD700;
-    text-shadow: 3px 3px 0px #333;
-}
+
 
 /* Chick and Chatbox Section */
 .chat-content {

@@ -1,9 +1,13 @@
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS  # Import CORS
 import json
 import random
+import threading
 
 app = Flask(__name__, template_folder="templates")
+CORS(app)  # Enable CORS for all routes
 
+lock = threading.Lock()
 # Load responses from JSON file
 def load_responses():
     try:
